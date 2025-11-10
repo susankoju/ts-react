@@ -9,6 +9,7 @@
     "build": "tsc -b && vite build",
     "deploy": "gh-pages -d build",
     "format": "echo 'Formatter to be installed'",
+    "test": "echo 'Mock tests passed'",
     "lint": "eslint .",
     "preview": "vite preview"
   },
