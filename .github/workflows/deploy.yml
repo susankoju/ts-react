@@ -14,6 +14,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Set Git User Identity
+        run: |
+          git config --local user.email aksusankoju@gmail.com
+          git config --local user.name susankoju
+
       # Step 2: Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
